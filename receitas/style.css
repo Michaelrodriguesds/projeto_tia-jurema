@@ -1,0 +1,128 @@
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+ul.menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul.menu li a {
+    color: #343a40;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 18px;
+    
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    
+    background-color:#E9967A;
+}
+
+menu {
+    background-color: dark;
+}
+
+div .receitascontaine {
+    background-color:#E9967A;
+
+}
+
+.receita-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.receita {
+    
+    background-color: #F9FAD2;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+}
+
+.receita img {
+    max-width: 100%;
+    border-radius: 5px;
+    
+}
+
+.receita h3 {
+    text-align: center;
+}
+
+.receita ul {
+    padding-left:100px;
+}
+
+@media screen and (max-width: 600px) {
+    .receita-container {
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .receita {
+        background-color: #F9FAD2;
+        width: 100%;
+    }
+
+}
+
+
+.receita {
+    background-color: #F9FAD2;
+}
+
+
+/* Estilo geral para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  /* Estilo para os links do rodapé */
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Estilo para os links do rodapé quando hover */
+  footer a:hover {
+    color: #ccc;
+  }
+  
+  /* Estilo para o texto do rodapé */
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Estilo para o container do rodapé */
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

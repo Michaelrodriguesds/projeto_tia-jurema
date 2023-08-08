@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <!-- Inclusão do Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="formatos.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/home/home_chatgebt.html"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../receitas/receitas.htm">Receitas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../cadastro/cadastro.html">Cadastro</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container main-content">
+    <h1 class="mt-5">
+        <img src="logotipo/logo.png" alt="Logo da Tia Jurema" style="max-width: 50px; margin-right: 10px;">
+        Receitas da Tia Jurema
+    </h1>
+    <p>Bem-Vindo(a) ao site da Tia Jurema</p>
+    <p>Conheça deliciosas Receitas para o dia a dia</p>
+
+    <div>
+
+        <div>
+            <!-- Aqui você pode adicionar o conteúdo principal do cardápio, como pratos, bebidas, sobremesas, etc. -->
+        </div>
+    </div>
+    <footer> &copy;Jurema 2023</footer>
+    <!-- Inclusão do Bootstrap JS e dependências -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      // Script para trocar a classe 'active' entre os links de navegação
+      const navLinks = document.querySelectorAll('.nav-link');
+
+      navLinks.forEach(link => {
+          link.addEventListener('click', () => {
+              navLinks.forEach(link => link.classList.remove('active'));
+              link.classList.add('active');
+          });
+      });
+  </script>
+</body>
+</html>

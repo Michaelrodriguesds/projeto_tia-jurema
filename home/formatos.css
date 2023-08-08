@@ -1,0 +1,48 @@
+body {
+  background-color:#E9967A;
+}
+
+.main-content {
+    text-align: center;
+    margin-top: 50px;
+}
+.navbar {
+    justify-content: flex-start;
+  
+}
+
+/* Estilo geral para o rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 0px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Estilo para os links do rodapé */
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Estilo para os links do rodapé quando hover */
+footer a:hover {
+  color: #ccc;
+}
+
+/* Estilo para o texto do rodapé */
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Estilo para o container do rodapé */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
